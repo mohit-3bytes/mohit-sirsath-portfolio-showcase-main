@@ -62,7 +62,7 @@ const Navbar = ({ darkMode, toggleDarkMode }: NavbarProps) => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-center display-flax alighment-center space-x-4">
               {navItems.map((item, index) => (
                 <motion.button
                   key={item.label}
