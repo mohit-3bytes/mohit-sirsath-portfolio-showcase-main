@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Send, Mail, Phone, MapPin, Github, Linkedin, CheckCircle } from "lucide-react";
+import { Send, Mail, Phone, MapPin, Github, Linkedin, CheckCircle, Instagram } from "lucide-react";
 
 const Contact = () => {
   const ref = useRef(null);
@@ -26,13 +26,13 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       setFormData({ name: "", email: "", message: "" });
-      
+
       setTimeout(() => {
         setIsSubmitted(false);
       }, 3000);
@@ -77,7 +77,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 via-transparent to-purple-50/50 dark:from-blue-900/20 dark:to-purple-900/20" />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" ref={ref}>
         <motion.div
           className="text-center mb-16"
@@ -108,7 +108,7 @@ const Contact = () => {
                 Get in Touch
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                I'm currently looking for new opportunities and would love to hear from you. 
+                I'm currently looking for new opportunities and would love to hear from you.
                 Whether you have a question or just want to say hi, I'll try my best to get back to you!
               </p>
             </motion.div>
@@ -119,22 +119,22 @@ const Contact = () => {
                 {
                   icon: <Mail className="w-6 h-6" />,
                   label: "Email",
-                  value: "mohitsirsath@example.com",
-                  link: "mailto:mohitsirsath@example.com",
+                  value: "mohitsirsath12@gmail.com",
+                  link: "mailto:mohitsirsath12@gmail.com",
                   color: "from-blue-500 to-cyan-500"
                 },
                 {
                   icon: <Phone className="w-6 h-6" />,
                   label: "Phone",
-                  value: "+91 XXXXX XXXXX",
-                  link: "tel:+91XXXXXXXXX",
+                  value: "+91 92656 23216",
+                  link: "tel:+919265623216",
                   color: "from-green-500 to-emerald-500"
                 },
                 {
                   icon: <MapPin className="w-6 h-6" />,
                   label: "Location",
                   value: "Surat, Gujarat, India",
-                  link: "#",
+                  link: "https://maps.app.goo.gl/X5MtAHnVVEnBwHzEA",
                   color: "from-purple-500 to-pink-500"
                 }
               ].map((contact, index) => (
@@ -173,14 +173,20 @@ const Contact = () => {
                   {
                     icon: <Github className="w-6 h-6" />,
                     label: "GitHub",
-                    url: "https://github.com/mohitsirsath",
+                    url: "https://github.com/mohit-3bytes",
                     color: "from-gray-600 to-gray-800"
                   },
                   {
                     icon: <Linkedin className="w-6 h-6" />,
                     label: "LinkedIn",
-                    url: "https://linkedin.com/in/mohitsirsath",
+                    url: "https://www.linkedin.com/in/mohit-sirsath/",
                     color: "from-blue-600 to-blue-800"
+                  },
+                  {
+                    icon: <Instagram className="w-6 h-6" />,
+                    label: "Instagram",
+                    url: "https://www.instagram.com/mohit_sirsath/",
+                    color: "from-pink-500 to-red-500"
                   }
                 ].map((social) => (
                   <motion.a

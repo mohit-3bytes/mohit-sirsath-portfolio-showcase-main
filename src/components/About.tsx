@@ -129,7 +129,7 @@ const About = () => {
                   Current Role
                 </h3>
                 <div>
-                  <h4 className="font-semibold text-lg">Junior QA</h4>
+                  <h4 className="font-semibold text-lg">Junior QA Engineer</h4>
                   <p className="text-gray-600 dark:text-gray-400">PixerFect Solutions LLP, Surat</p>
                   <span className="inline-block mt-1 px-3 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400 rounded-full text-sm">
                     Since December 9, 2024
@@ -209,7 +209,7 @@ const About = () => {
           animate={isInView ? "visible" : "hidden"}
         >
           {[
-            { number: "2+", label: "Months Experience" },
+            { number: "7+", label: "Months Experience" },
             { number: "10+", label: "Projects Built" },
             { number: "5+", label: "Technologies" },
             { number: "1", label: "Live Project" }

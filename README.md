@@ -152,7 +152,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📞 Contact
 
-- **Email**: mohitsirsath@example.com
+- **Email**: mohitsirsath12@gmail.com
 - **LinkedIn**: [linkedin.com/in/mohitsirsath](https://linkedin.com/in/mohitsirsath)
 - **GitHub**: [github.com/mohitsirsath](https://github.com/mohitsirsath)
 

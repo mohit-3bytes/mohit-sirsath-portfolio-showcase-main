@@ -12,7 +12,7 @@ const Experience = () => {
     {
       id: 1,
       type: "work",
-      title: "Junior QA",
+      title: "Junior QA Engineer",
       organization: "PixerFect Solutions LLP",
       location: "Surat, Gujarat",
       date: "December 2024 - Present",

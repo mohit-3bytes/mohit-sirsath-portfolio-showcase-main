@@ -18,7 +18,7 @@ const Footer = () => {
     },
     {
       icon: <Mail className="w-5 h-5" />,
-      href: "mailto:mohitsirsath@example.com",
+      href: "mailto:mohitsirsath12@gmail.com",
       label: "Email"
     }
   ];
@@ -55,7 +55,7 @@ const Footer = () => {
             </h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
               Full Stack MERN Developer passionate about creating innovative web solutions. 
-              Currently working as a Junior QA while transitioning to development.
+              Currently working as a Junior QA Engineer while transitioning to development.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((link, index) => (
@@ -121,7 +121,7 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="text-gray-600 dark:text-gray-400">
                 <span className="font-medium">Email:</span><br />
-                mohitsirsath@example.com
+                mohitsirsath12@gmail.com
               </p>
               <p className="text-gray-600 dark:text-gray-400">
                 <span className="font-medium">Location:</span><br />
