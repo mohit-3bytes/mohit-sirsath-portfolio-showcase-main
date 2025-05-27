@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "homepage": "https://mohit-3bytes.github.io/mohit-sirsath-portfolio-showcase-main",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
