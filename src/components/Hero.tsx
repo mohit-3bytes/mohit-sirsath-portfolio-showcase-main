@@ -18,7 +18,7 @@ const Hero = () => {
       setCurrentTitle((prev) => (prev + 1) % titles.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [titles.length]);
 
   const scrollToProjects = () => {
     const projectsSection = document.querySelector("#projects");
