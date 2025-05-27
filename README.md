@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Mohit Sirsath - Portfolio Website
 
@@ -158,3 +159,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ---
 
 ⭐ If you like this portfolio, please give it a star on GitHub!
+=======
+# mohit-sirsath-portfolio-showcase-main
+>>>>>>> 6e0e24f23e75764cf6693a4835f34888aea36839
